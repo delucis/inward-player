@@ -40,6 +40,7 @@ function paint() {
 				const startDate = new Date(date);
 				startDate.setHours(hour);
 				startDate.setMinutes(minute);
+				startDate.setSeconds(0);
 				const endDate = new Date(startDate);
 				endDate.setMinutes(minute + sessionMinutes);
 				return {
