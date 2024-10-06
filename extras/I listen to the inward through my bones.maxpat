@@ -870,6 +870,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 									"fontsize" : 16.0,
 									"id" : "obj-3",
 									"lcdbgcolor" : [ 1.0, 0.490196, 0.262745, 1.0 ],
@@ -883,6 +884,10 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 120.0, 249.0, 76.0, 23.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : "themecolor.live_control_bg"
+										}
+,
 										"lcdbgcolor" : 										{
 											"expression" : "themecolor.live_alert"
 										}
