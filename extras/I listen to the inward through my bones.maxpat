@@ -41,6 +41,18 @@
 		"title" : "Iannotta/Swithinbank — I listen to the inward through my bones (2024)",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 375.0, 480.0, 56.0, 23.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -140,7 +152,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.56078431372549, 0.172549019607843, 0.086274509803922, 0.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"hidden" : 1,
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -213,7 +224,6 @@
 					"bgcolor" : [ 1.0, 0.490196, 0.262745, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
-					"hidden" : 1,
 					"id" : "obj-42",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -242,6 +252,7 @@
 					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
+					"hidden" : 1,
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1653,6 +1664,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
