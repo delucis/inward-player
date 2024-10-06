@@ -41,6 +41,18 @@
 		"title" : "Iannotta/Swithinbank — I listen to the inward through my bones (2024)",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 375.0, 810.0, 56.0, 23.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-63",
@@ -1569,6 +1581,13 @@
 					"destination" : [ "obj-64", 0 ],
 					"midpoints" : [ 144.5, 795.0, 290.5, 795.0, 290.5, 566.0, 24.5, 566.0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
