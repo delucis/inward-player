@@ -1,0 +1,5 @@
+# macOS nonsense
+.DS_Store
+# audio files
+*.wav
+
